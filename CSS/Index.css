@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    background-color: rgb(56, 56, 56);
+}
+.root {
+    background-color: rgb(41, 7, 7);
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(41, 7, 7);
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 208, 208);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    background-color: rgb(121, 111, 85);
+    color: rgb(255, 255, 255);
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 5;
+    left: 0;
+    background-color: darkgray;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+}
+.sidenav a:hover {
+    background-color: darkorange;
+}
+.img-bg {
+    filter: blur(1px);
+}
+p {
+    color: rgb(255, 208, 208);
+    padding: 10px;
+    background-color: rgb(121, 111, 85);
+    margin: 100px;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(121, 111, 85);
+    color: wheat;
+    padding: 10px;
+}
+a {
+    text-align: center;
+    color: thistle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}

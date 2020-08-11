@@ -1,0 +1,4 @@
+.bg-img {
+    background-image: url(IMG/top9.jpg);
+    filter: blur(8px);background-position: center;
+}
